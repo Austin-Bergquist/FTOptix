@@ -1,0 +1,14 @@
+Project Z:/VMshare/CAN_TREND1/CAN_TREND1.optix upgraded on 04-01-2024 21:21:55.994
+
+Upgraded modules:
+FTOptix.HMIProject: from 1.0 to 5.3
+FTOptix.Core: from 1.0 to 3.0
+FTOptix.CoreBase: from 1.0 to 3.1
+FTOptix.UI: from 1.0 to 11.0
+FTOptix.CommunicationDriver: from 1.0 to 2.0
+FTOptix.NativeUI: from 1.0 to 2.0
+FTOptix.RAEtherNetIP: from 1.0 to 2.1
+
+No potential breaking changes detected
+
+

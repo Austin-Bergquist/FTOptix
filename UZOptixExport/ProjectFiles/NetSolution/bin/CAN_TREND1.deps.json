@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CAN_TREND1/1.0.0": {
+        "runtime": {
+          "CAN_TREND1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CAN_TREND1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

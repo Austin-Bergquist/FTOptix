@@ -1,0 +1,12 @@
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\bin\CAN_TREND1.deps.json
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\bin\CAN_TREND1.dll
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\bin\CAN_TREND1.pdb
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\obj\Debug\CAN_TREND1.csproj.AssemblyReference.cache
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\obj\Debug\CAN_TREND1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\obj\Debug\CAN_TREND1.AssemblyInfoInputs.cache
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\obj\Debug\CAN_TREND1.AssemblyInfo.cs
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\obj\Debug\CAN_TREND1.csproj.CoreCompileInputs.cache
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\obj\Debug\CAN_TREND1.dll
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\obj\Debug\refint\CAN_TREND1.dll
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\obj\Debug\CAN_TREND1.pdb
+C:\Users\VMAdmin\Desktop\CAN_TREND1\ProjectFiles\NetSolution\obj\Debug\ref\CAN_TREND1.dll

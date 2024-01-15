@@ -1,0 +1,205 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=72e98dca25531aaa278b4c3f96f6354e
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=21;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: TEMP1_INP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP1_WRN_SP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP1_ALM_SP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP2_INP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP2_WRN_SP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP2_ALM_SP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP3_INP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP3_WRN_SP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP3_ALM_SP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP4_INP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP4_WRN_SP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP4_ALM_SP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP1_WRN
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: TEMP1_ALM
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ALM_RST
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: TEMP2_WRN
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: TEMP2_ALM
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: TEMP3_WRN
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: TEMP3_ALM
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: TEMP4_WRN
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: TEMP4_ALM
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ANY_WRN
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ANY_ALM
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: TEMP1
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP2
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP3
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TEMP4
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=21;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=59
+    Direction: Forward

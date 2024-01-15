@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module version="1">
+    <Name>CAN_TREND1UserDefinedModule</Name>
+    <Company></Company>
+    <Version>0.0.0</Version>
+    <MinUpgradableVersion>0.0.0</MinUpgradableVersion>
+    <Binding name="Net" />
+
+    <Namespaces/>
+
+    <Dependencies>
+        <Core version="0.0.0" />
+        <Binding version="0.0.0" />
+        <Module name="FTOptix.HMIProject.Net" version="0.0.0" />
+    </Dependencies>
+
+    <Nodes/>
+
+    <TypeMappings>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="CAN_TREND1" guid="bd00a59426b43883a127f9942a806fba" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="CAN_TREND1" guid="227c88887a072df7e7701c69886544ab" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="CAN_TREND1" guid="23e30d257e5637d2f414e174c6653938" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="CAN_TREND1" guid="6eb1ab23f997223891441e121df88bd6" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="CAN_TREND1" guid="524e9ee65e2633838a150f3c103a943f" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="CAN_TREND1" guid="905086da42839adab3f92872132306f4" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="CAN_TREND1" guid="6eb83c214fcd1fcfdb657f587f312fe1" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="CAN_TREND1" guid="5f0ae4aecb37da60aec1153f5f00fba2" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="CAN_TREND1" guid="8ffbed7bba770f09dc14842aaf710d92" />
+            </TargetType>
+        </TypeMapping>
+    </TypeMappings>
+
+    <Behaviors>
+        <Behavior guid="186a6a413ba8653bd752f8af70945e22">
+            <Targets>
+                <Target startPriorityAlias="NetLogic">
+				     <NodeId namespaceUri="CAN_TREND1" guid="524e9ee65e2633838a150f3c103a943f" />
+                </Target>
+            </Targets>
+        </Behavior>
+    </Behaviors>
+</Module>

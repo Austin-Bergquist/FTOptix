@@ -1,0 +1,4 @@
+Name: RAEtherNet_IPDriver1
+Type: RAEtherNetIPDriver
+Children:
+- File: RAEtherNet_Micro850/RAEtherNet_Micro850.yaml
